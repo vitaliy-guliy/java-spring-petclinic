@@ -1,6 +1,6 @@
 schemaVersion: 2.1.0
 metadata:
-  name: spring-petclinic
+  name: spring-petclinic-cache1
 components:
 
   - name: tools
@@ -70,7 +70,8 @@ commands:
     exec:
       component: tools
       workingDir: ${PROJECT_SOURCE}
-      commandLine: mvn clean install
+      commandLine: |
+        echo "Hello world"
       group:
         kind: build
         isDefault: true
