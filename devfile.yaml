@@ -1,4 +1,4 @@
-schemaVersion: 2.2.2
+schemaVersion: 2.2.0
 metadata:
   name: java-spring-petclinic
 projects:
@@ -12,11 +12,11 @@ projects:
       remotes:
         origin: https://github.com/vitaliy-guliy/lombok-project-sample.git
 
-dependentProjects:
-  - name: python-hello-world
-    git:
-      remotes:
-        origin: https://github.com/vitaliy-guliy/python-hello-world.git
+# dependentProjects:
+#   - name: python-hello-world
+#     git:
+#       remotes:
+#         origin: https://github.com/vitaliy-guliy/python-hello-world.git
 
 starterProjects:
   - name: nodejs-react-starter
