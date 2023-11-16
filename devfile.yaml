@@ -1,0 +1,34 @@
+schemaVersion: 2.1.0
+metadata:
+  name: java-spring-petclinic
+projects:
+  - name: nodejs-devfile-test
+    git:
+      remotes:
+        origin: https://github.com/vitaliy-guliy/nodejs-devfile-test.git
+
+  - name: lombok-project-sample
+    git:
+      remotes:
+        origin: https://github.com/vitaliy-guliy/lombok-project-sample.git
+
+dependentProjects:
+  - name: python-hello-world
+    git:
+      remotes:
+        origin: https://github.com/vitaliy-guliy/python-hello-world.git
+
+starterProjects:
+  - name: nodejs-react-starter
+    git:
+      checkoutFrom:
+        revision: main
+      remotes:
+        origin: https://github.com/devfile-samples/devfile-stacks-nodejs-react.git
+
+components:
+  - name: tools
+    container:
+      image: quay.io/devfile/universal-developer-image:ubi8-latest
+      memoryLimit: 1G
+      mountSources: true
