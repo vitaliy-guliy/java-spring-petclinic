@@ -13,12 +13,6 @@ metadata:
 #       remotes:
 #         origin: https://github.com/vitaliy-guliy/lombok-project-sample.git
 
-# dependentProjects:
-#   - name: python-hello-world
-#     git:
-#       remotes:
-#         origin: https://github.com/vitaliy-guliy/python-hello-world.git
-
 components:
   - name: tools
     container:
