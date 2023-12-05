@@ -12,19 +12,11 @@ projects:
       remotes:
         origin: https://github.com/vitaliy-guliy/lombok-project-sample.git
 
-# dependentProjects:
-#   - name: python-hello-world
-#     git:
-#       remotes:
-#         origin: https://github.com/vitaliy-guliy/python-hello-world.git
-
-starterProjects:
-  - name: nodejs-react-starter
+dependentProjects:
+  - name: python-hello-world
     git:
-      checkoutFrom:
-        revision: main
       remotes:
-        origin: https://github.com/devfile-samples/devfile-stacks-nodejs-react.git
+        origin: https://github.com/vitaliy-guliy/python-hello-world.git
 
 components:
   - name: tools
