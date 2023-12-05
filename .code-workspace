@@ -1,0 +1,31 @@
+// test comment
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.cursorBlinking": "expand",
+		"editor.cursorStyle": "block",
+		"workbench.colorTheme": "Kimbie Dark",
+		"workbench.iconTheme": "dot"
+	},
+	"extensions": {
+		"recommendations": [
+			"redhat.vscode-yaml",
+			"anweber.dot-icons"
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "node",
+				"name": "My run",
+				"request": "attach",
+				"port": 5005
+			}
+		]
+	}
+}
